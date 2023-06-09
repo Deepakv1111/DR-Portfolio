@@ -1,0 +1,14 @@
+{
+  // Add those two lines:
+  // "editor.formatOnPaste": true, // Tell VSCode to format files on paste
+  "editor.formatOnSave": true, // Tell VSCode to format files on save
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  } // Tell VSCode to use Prettier as default file formatter
+
+  // "editor.codeActionsOnSave": {
+  //   "source.fixAll.eslint": true,
+  //   "source.fixAll.format": true
+  // },
+}
